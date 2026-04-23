@@ -4,7 +4,7 @@ An autonomous research system that coordinates specialized AI agents using a **D
 
 ## Key Features
 
-* **State-Machine Orchestration:** Strictly manages the task lifecycle (`PENDING` → `PLANNING` → `RESEARCHING` → `WRITING` → `COMPLETED`).
+* **State-Machine Orchestration:** Strictly manages the task lifecycle (`PENDING` → `PLANNING` → `RESEARCHING` → `WRITING` →'REVIEWING'-> `COMPLETED`).
 * **Agentic Intelligence:** Uses **Gemini 1.5 Flash** for strategic planning and content synthesis.
 * **Real-time Web Grounding:** Integrates **Tavily API** and **BeautifulSoup** for live data extraction.
 * **Asynchronous Backend:** Built with **FastAPI** to handle non-blocking I/O operations.
