@@ -18,9 +18,7 @@ An autonomous research system that coordinates specialized AI agents using a **D
 ```bash
 cd backend
 
-# Create and activate virtual environment
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+source venv/bin/activate 
 
-# Install required libraries
 pip install fastapi uvicorn google-generativeai tavily-python httpx beautifulsoup4 python-dotenv
