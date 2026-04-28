@@ -7,14 +7,15 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 import google.generativeai as genai
+# from google import genai
 from tavily import TavilyClient
 import httpx
 from bs4 import BeautifulSoup
 
 # GEMINI_KEY_PLANNER = "AIzaSyA0WKAu7HqV2K3D4SpusAjla7XCrvAB_XY"
 # GEMINI_KEY_WRITER = "AIzaSyC__QqnxXY4W4uF1RoGZk4sfONhbpFifDA"
-GEMINI_KEY_PLANNER = "AIzaSyB_nLrj683SoNMSdd4ohnN74rOFtGiCQWM"
-GEMINI_KEY_WRITER = "AIzaSyB_nLrj683SoNMSdd4ohnN74rOFtGiCQWM"
+GEMINI_KEY_PLANNER = ""
+GEMINI_KEY_WRITER = ""
 TAVILY_API_KEY = "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"
 app = FastAPI()
 
